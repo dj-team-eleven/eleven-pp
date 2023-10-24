@@ -3,7 +3,7 @@
 - The team-eleven's first pypi project. We make several functions for our work
 <br>
 
-- View at : https://pypi.org/project/eleven-pp/0.0.0/
+- View at : https://pypi.org/project/eleven-pp/
 
 ### Install
 
@@ -42,6 +42,14 @@ $ 11-lunch
 한줄 평: 돈가스 맛집
 
 # 무작위로 맛집 추천
+```
+
+```bash
+$ 11-lotto
+
+[24, 41, 9, 36, 18, 30]
+
+# 무작위로 1~45사이의 6개의 숫자 출력
 ```
 
 ### DEV
