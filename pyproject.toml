@@ -23,6 +23,10 @@ pytest = [
     "pytest-cov>=4.1.0",
 ]
 
+[project.scripts]
+11-lunch = 'eleven_pp.rec_resto:rec_resto'
+11-dday ='eleven_pp.dday:calculate_dday'
+11-blog ='eleven_pp:rink:rink'
 
 [project.urls]
 "Homepage" = "https://github.com/dj-team-eleven/eleven-pp"
