@@ -1,6 +1,7 @@
 [project]
 name = "eleven-pp"
-version = "0.0.1"
+version = "1.2.1"
+
 description = "The team-eleven's first pypi project. We make several functions for our work"
 authors = [
     {name = "team-eleven", email = "dlsrbs98@gmail.com"},
@@ -19,7 +20,14 @@ test = [
     "pytest>=7.4.2",
     "pytest-cov>=4.1.0",
 ]
+pytest = [
+    "pytest-cov>=4.1.0",
+]
 
+[project.scripts]
+11-lunch = 'eleven_pp.rec_resto:rec_resto'
+11-dday ='eleven_pp.dday:calculate_dday'
+11-blog ='eleven_pp.rink:rink'
 
 [project.urls]
 "Homepage" = "https://github.com/dj-team-eleven/eleven-pp"

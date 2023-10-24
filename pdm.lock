@@ -2,11 +2,11 @@
 # It is not intended for manual editing.
 
 [metadata]
-groups = ["default", "test"]
+groups = ["default", "test", "pytest"]
 cross_platform = true
 static_urls = false
 lock_version = "4.3"
-content_hash = "sha256:432836b4925d26c661113e1c5bc8c5f86e5a118aeff26643c68a4f3093414d87"
+content_hash = "sha256:90ebb73eddbe2cdb27f922d44a88725e22e11e828da940a34fac61eb97079d9a"
 
 [[package]]
 name = "colorama"
