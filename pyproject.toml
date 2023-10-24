@@ -1,0 +1,15 @@
+[project]
+name = "eleven-pp"
+version = "0.0.0"
+description = "The team-eleven's first pypi project. We make several functions for our work"
+authors = [
+    {name = "team-eleven", email = "dlsrbs98@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
