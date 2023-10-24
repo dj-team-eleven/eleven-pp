@@ -1,6 +1,6 @@
 [project]
 name = "eleven-pp"
-version = "0.0.0"
+version = "1.0.0"
 description = "The team-eleven's first pypi project. We make several functions for our work"
 authors = [
     {name = "team-eleven", email = "dlsrbs98@gmail.com"},
@@ -17,6 +17,9 @@ build-backend = "pdm.backend"
 [tool.pdm.dev-dependencies]
 test = [
     "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
+pytest = [
     "pytest-cov>=4.1.0",
 ]
 
