@@ -9,7 +9,7 @@
 
 `$ pip install eleven-pp`
 
--if you already intalled old version, 
+- if you already intalled old version, 
 `$ pip install --upgrade eleven-pp`
 
 ### USE
