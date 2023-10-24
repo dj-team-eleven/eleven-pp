@@ -19,3 +19,8 @@ test = [
     "pytest>=7.4.2",
     "pytest-cov>=4.1.0",
 ]
+
+
+[project.urls]
+"Homepage" = "https://github.com/dj-team-eleven/eleven-pp"
+"Bug Tracker" = "https://github.com/dj-team-eleven/eleven-pp/issues"
