@@ -15,4 +15,7 @@
 
 ### DEPLOY
 
+### how2pr
+- https://oss.cashmallow.com/team/how2pr/
+
 ### REF
